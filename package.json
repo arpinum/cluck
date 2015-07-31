@@ -4,11 +4,19 @@
   "description": "Drunk is a task runner written in JavaScript",
   "scripts": {},
   "repository": "arpinum-oss/drunk",
-  "author": {
-    "name": "Michael Borde",
-    "url": "http://michaelborde.fr"
+  "bin": {
+    "drunk": "bin/drunk"
   },
-  "license": "LGPL-3.0",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "preferGlobal": true,
+  "author": {
+    "name": "Arpinum",
+    "url": "http://arpinum.fr"
+  },
+  "license": "MIT",
   "dependencies": {
     "bluebird": "^2.9.34",
     "commander": "^2.8.1",
@@ -25,7 +33,14 @@
     "sinon": "^1.15.4",
     "sinon-chai": "^2.8.0"
   },
-  "files": [
-    "lib"
-  ]
+  "keywords": [
+    "task",
+    "async",
+    "cli",
+    "build",
+    "tool",
+    "project",
+    "shell",
+    "script"
+  ],
 }
