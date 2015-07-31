@@ -1,6 +1,6 @@
 {
   "name": "drunk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Drunk is a task runner written in JavaScript",
   "scripts": {},
   "repository": "arpinum-oss/drunk",
@@ -42,5 +42,5 @@
     "project",
     "shell",
     "script"
-  ],
+  ]
 }

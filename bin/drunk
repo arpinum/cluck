@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+'use strict';
+
+process.title = 'drunk';
+
+new (require('../lib/cli/Program'))().execute();
