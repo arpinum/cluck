@@ -23,6 +23,7 @@
     "bluebird": "^2.9.34",
     "commander": "^2.8.1",
     "cross-spawn": "^2.0.0",
+    "findup-sync": "^0.2.1",
     "glob": "^5.0.14",
     "lodash": "^3.10.0"
   },
