@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "Drunk is a task runner written in JavaScript",
   "scripts": {
-    "test": "./bin/drunk jshint && ./bin/drunk mocha"
+    "test": "./bin/drunk jshint mocha"
   },
   "repository": "arpinum-oss/drunk",
   "bin": {
