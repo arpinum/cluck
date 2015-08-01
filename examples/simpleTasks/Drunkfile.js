@@ -1,11 +1,11 @@
 'use strict';
 
 module.exports = function (drunk) {
-  drunk.register('task1', function () {
+  drunk.registerTask('task1', function () {
     console.log('I am task1');
   });
 
-  drunk.register('task2', function () {
+  drunk.registerTask('task2', function () {
     console.log('I am task2');
   });
 };

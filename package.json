@@ -39,6 +39,7 @@
   "keywords": [
     "task",
     "async",
+    "promise",
     "cli",
     "build",
     "tool",
