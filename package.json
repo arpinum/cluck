@@ -25,7 +25,8 @@
     "cross-spawn": "^2.0.0",
     "findup-sync": "^0.2.1",
     "glob": "^5.0.14",
-    "lodash": "^3.10.0"
+    "lodash": "^3.10.0",
+    "log4js": "^0.6.26"
   },
   "devDependencies": {
     "chai": "^3.2.0",
