@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = function (drunk) {
-  return drunk.shell.promiseLocalBinExecution('jshint', ['.']);
+  return drunk.shell.executeBin('jshint', ['.']);
 };

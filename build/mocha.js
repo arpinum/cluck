@@ -5,7 +5,7 @@ var Mocha = require('mocha');
 var Bluebird = require('bluebird');
 
 module.exports = function (drunk) {
-  return drunk.files.promiseGlobbing('lib/**/*.spec.js')
+  return drunk.files.glob('lib/**/*.spec.js')
     .then(function (files) {
       var mocha = new Mocha({reporter: 'spec'});
       _.forEach(files, function (spec) {
