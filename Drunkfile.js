@@ -3,5 +3,5 @@
 module.exports = function (drunk) {
   drunk.findAndRegisterTasks('build/**/*.js');
 
-  drunk.registerTask('default', ['jshint', 'mocha']);
+  drunk.withTask('default').doing('jshint', 'mocha');
 };

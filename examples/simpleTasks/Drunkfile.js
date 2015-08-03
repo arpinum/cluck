@@ -1,11 +1,11 @@
 'use strict';
 
 module.exports = function (drunk) {
-  drunk.registerTask('task1', function () {
+  drunk.withTask('task1').doing(function () {
     console.log('I am task1');
   });
 
-  drunk.registerTask('task2', function () {
+  drunk.withTask('task2').doing(function () {
     console.log('I am task2');
   });
 
@@ -13,5 +13,5 @@ module.exports = function (drunk) {
     console.log('I am task3');
   }
 
-  drunk.registerTask('default', ['task1', 'task2', task3]);
+  drunk.withTask('default').doing('task1', 'task2', task3);
 };
