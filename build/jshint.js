@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = function (cluck) {
-  return cluck.shell.executeBin('jshint', ['.']);
+  return cluck.shell.execute('jshint', ['.'], {resolveLocalBin: true});
 };
