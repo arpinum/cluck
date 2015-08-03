@@ -4,8 +4,8 @@ var _ = require('lodash');
 var Mocha = require('mocha');
 var Bluebird = require('bluebird');
 
-module.exports = function (drunk) {
-  return drunk.files.glob('lib/**/*.spec.js')
+module.exports = function (cluck) {
+  return cluck.files.glob('lib/**/*.spec.js')
     .then(function (files) {
       var mocha = new Mocha({reporter: 'spec'});
       _.forEach(files, function (spec) {

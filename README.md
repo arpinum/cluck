@@ -1,6 +1,6 @@
-# Drunk [![Build Status](https://travis-ci.org/arpinum-oss/drunk.svg?branch=master)](https://travis-ci.org/arpinum-oss/drunk)
+# Cluck [![Build Status](https://travis-ci.org/arpinum-oss/cluck.svg?branch=master)](https://travis-ci.org/arpinum-oss/cluck)
 
-**Drunk** is a task runner written in JavaScript.
+**Cluck** is a task runner written in JavaScript.
 
 ## License
 

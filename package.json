@@ -1,13 +1,13 @@
 {
-  "name": "drunk",
+  "name": "cluck",
   "version": "0.0.2",
-  "description": "Drunk is a task runner written in JavaScript",
+  "description": "Cluck is a task runner written in JavaScript",
   "scripts": {
-    "test": "./bin/drunk jshint mocha"
+    "test": "./bin/cluck default"
   },
-  "repository": "arpinum-oss/drunk",
+  "repository": "arpinum-oss/cluck",
   "bin": {
-    "drunk": "bin/drunk"
+    "cluck": "bin/cluck"
   },
   "files": [
     "lib",
