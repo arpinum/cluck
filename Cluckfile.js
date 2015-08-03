@@ -2,6 +2,6 @@
 
 module.exports = function (cluck) {
   cluck.findAndRegisterTasks('build/**/*.js');
-
-  cluck.withTask('default').doing('jshint', 'mocha');
+  cluck.withTask('test').doing('jshint', 'mocha');
+  cluck.withTask('default').doing('test');
 };
