@@ -26,6 +26,7 @@
     "findup-sync": "^0.2.1",
     "glob": "^5.0.14",
     "lodash": "^3.10.0",
+    "fs-extra": "^0.22.1",
     "log4js": "^0.6.26"
   },
   "devDependencies": {
@@ -35,7 +36,8 @@
     "karma": "^0.13.3",
     "mocha": "^2.2.5",
     "sinon": "^1.15.4",
-    "sinon-chai": "^2.8.0"
+    "sinon-chai": "^2.8.0",
+    "temp": "^0.8.3"
   },
   "keywords": [
     "task",
