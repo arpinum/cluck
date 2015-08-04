@@ -2,6 +2,6 @@
 
 'use strict';
 
-process.title = 'drunk';
+process.title = 'cluck';
 
 new (require('../lib/cli/Program'))().execute();
