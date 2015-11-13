@@ -1,9 +1,11 @@
 {
   "name": "cluck",
-  "version": "0.0.12",
+  "version": "0.0.11",
   "description": "Cluck is a task runner written in JavaScript",
   "scripts": {
-    "test": "./bin/cluck test"
+    "test": "./bin/cluck test",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
   },
   "repository": "arpinum-oss/cluck",
   "bin": {
