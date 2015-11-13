@@ -21,7 +21,6 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.0.5",
-    "building": "0.0.2",
     "commander": "^2.9.0",
     "findup-sync": "^0.3.0",
     "glob": "^6.0.1",
@@ -32,6 +31,7 @@
     "unorm": "^1.4.1"
   },
   "devDependencies": {
+    "building": "0.0.2",
     "chai": "^3.4.1",
     "chai-as-promised": "^5.1.0",
     "jshint": "^2.8.0",

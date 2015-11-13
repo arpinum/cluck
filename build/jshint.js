@@ -1,5 +1,7 @@
 'use strict';
 
-module.exports = function (cluck) {
-  return cluck.shell.execute('jshint', ['.'], {resolveLocalBin: true});
+var shell = require('building').shell;
+
+module.exports = function () {
+  return shell.execute('jshint', ['.'], {resolveLocalBin: true});
 };
