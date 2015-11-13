@@ -5,7 +5,7 @@
   "scripts": {
     "test": "./bin/cluck test",
     "preversion": "npm test",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags && npm publish"
   },
   "repository": "arpinum-oss/cluck",
   "bin": {
