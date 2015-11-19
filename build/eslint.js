@@ -3,5 +3,5 @@
 var shell = require('building').shell;
 
 module.exports = function () {
-  return shell.execute('jshint', ['.'], {resolveLocalBin: true});
+  return shell.execute('eslint', ['.'], {resolveLocalBin: true});
 };
