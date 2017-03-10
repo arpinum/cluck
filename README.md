@@ -5,6 +5,8 @@
 
 **Cluck** is a task runner written in JavaScript.
 
+This project is unmaintained.
+
 ## License
 
 [MIT](LICENSE)
